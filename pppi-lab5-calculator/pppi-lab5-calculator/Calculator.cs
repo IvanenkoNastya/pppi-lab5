@@ -6,33 +6,32 @@ using System.Threading.Tasks;
 
 namespace pppi_lab5_calculator {
 	internal class Calculator {
-		public float Add(float n, float m) {
-			float result = 0;
+		public double Add(double n, double m) {
+			double result = 0;
 			// to do
 			return result;
 		}
 
-		public float Substract(float n, float m) {
-			float result = 0;
+		public double Substract(double n, double m) {
+			double result = 0;
 			// to do
 			return result;
 		}
 
-		public float Multiply(float n, float m) {
-			float result = 0;
+		public double Multiply(double n, double m) {
+			double result = 0;
 			// to do
 			return result;
 		}
 
-		public float Divide(float n, float m) {
-			float result = 0;
+		public double Divide(double n, double m) {
+			double result = 0;
 			// to do
 			return result;
 		}
 
-		public float Pow(float n, float m) {
-			float result = 0;
-			// to do
+		public double Pow(double n, double m) {
+			double result = Math.Pow(Convert.ToDouble(n), Convert.ToDouble(m));
 			return result;
 		}
 	}
