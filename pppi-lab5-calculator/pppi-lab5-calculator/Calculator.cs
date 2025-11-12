@@ -9,7 +9,7 @@ namespace pppi_lab5_calculator {
 		public double Add(double n, double m) {
 			double result = 0;
 			// to do
-			return result;
+			return n+m;
 		}
 
 		public double Substract(double n, double m) {
@@ -19,8 +19,9 @@ namespace pppi_lab5_calculator {
 		}
 
 		public double Multiply(double n, double m) {
-			double result = n * m;
-			return result;
+			double result = 0;
+			// to do
+			return n*m;
 		}
 
 		public double Divide(double n, double m) {
