@@ -25,9 +25,7 @@ namespace pppi_lab5_calculator {
 		}
 
 		public double Divide(double n, double m) {
-			double result = 0;
-			// to do
-			return result;
+			return n / m;
 		}
 
 		public double Pow(double n, double m) {
